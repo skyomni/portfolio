@@ -24,56 +24,73 @@ Barista @ Xing Fu Tang.Inc | June 2023 - September 2025
 - Consistently maintained high standards of quality in every drink made, ensuring customer satisfaction 
 - Trained new baristas on proper brewing techniques, drink recipes, and customer service protocols
 
-### Projects
-##1. CubeSat Environmental Sensing System
-Lead Builder • Embedded Systems Developer • Independent Research Project
-#####Overview
-Designed and built a custom CubeSat-style sensing platform to analyze how atmospheric conditions vary across building floors, with the goal of improving large-building HVAC efficiency.
-#####Key Contributions
 
-Engineered the CubeSat frame and integrated a BMP280 barometric pressure sensor and MPU6050 IMU/temperature sensor.
+## 1. CubeSat Environmental Sensing System
+**Lead Builder • Embedded Systems Developer • Independent Research Project**
 
-Programmed microcontroller firmware for continuous pressure, temperature, and acceleration data logging.
+### Overview
+Designed and built a custom CubeSat-style environmental sensing platform to analyze how atmospheric conditions vary across building floors, with the goal of improving large-building HVAC efficiency.
 
-Conducted multi-floor flight tests inside a multi-story building to capture altitude-derived pressure changes.
+### Key Contributions
+- Built CubeSat frame and integrated **BMP280 pressure** and **MPU6050 temperature/IMU** sensors.  
+- Wrote microcontroller firmware for continuous data logging.  
+- Ran multi-floor tests to capture altitude-based pressure variation.  
+- Processed data in Python, identifying temperature–pressure relationships relevant to HVAC load patterns.  
+- Authored the research paper  
+  *“Investigating Altitudinal Variations in Indoor Temperature Using CubeSat Pressure Data.”*
 
-Processed and graphed data in Python; identified temperature–pressure correlations relevant to HVAC load patterns.
+### Skills Used
+Python • C/C++ (embedded) • Sensor Calibration • Data Analysis • CAD • Research Writing  
 
-Authored and analyzed findings for the research paper “Investigating Altitudinal Variations in Indoor Temperature Using CubeSat Pressure Data.”
+---
 
-Skills Used
+## 2. Cosmic Ray Muon Detector Research (QCC)
+**Research Assistant • Experimental Particle Physics**
 
-Python • Microcontrollers • Sensor Calibration • Data Analysis • Research Writing • CAD/Enclosure Design
+### Overview
+Assisted in experimental particle physics research using scintillation detectors to measure cosmic-ray muon flux.
 
-2. Cosmic Ray Muon Detector Research (QCC)
+### Key Contributions
+- Assembled and operated **scintillation muon detectors** with PMTs and coincidence logic.  
+- Tuned PMT thresholds and optimized electronics to reduce noise and improve data quality.  
+- Collected and analyzed muon flux statistics using Python.  
+- Documented configurations and contributed improvements to detector calibration procedures.
 
-Research Assistant • Experimental Particle Physics
+### Skills Used
+Detector Calibration • Nuclear Instrumentation • Python • Experimental Design • Statistics  
 
-Overview
+---
 
-Worked with Quinsigamond Community College’s particle physics program investigating cosmic-ray muon flux and optimizing detector performance.
+## 3. Raspberry Pi Pico Entertainment System
+**Embedded Systems & Prototyping • Team Engineering Project**
 
-Key Contributions
+### Overview
+Collaborated with a four-person Northeastern engineering team to design a portable entertainment system using the Raspberry Pi Pico.
 
-Assisted in assembling and operating scintillation muon detectors using PMTs and coincidence logic.
+### Key Contributions
+- Co-developed problem statement, goals, and evaluation metrics.  
+- Designed multiple game concepts (Flappy Bird variants, rhythm games, motion interaction).  
+- Created wiring diagrams, sketches, pseudocode, and prototype logic.  
+- Built physical prototypes with LCD screens, LEDs, buttons, and cardboard enclosures.  
+- Maintained full engineering design notebook documenting development and testing.
 
-Tuned PMT thresholds and optimized discriminator/counter settings to reduce noise and increase detection reliability.
+### Skills Used
+Circuit Prototyping • Microcontrollers • Rapid Prototyping • Design Documentation • Team Collaboration  
 
-Collected muon flux statistics and analyzed count rates using Python.
+---
 
-Documented experimental configurations and contributed improvements for long-term calibration stability.
+## Technical Skills Summary
 
-Skills Used
+**Programming & Data:**  
+Python, C/C++, Sensor Integration, Matplotlib, Data Analysis, Embedded Systems  
 
-Nuclear Instrumentation • Statistics • Detector Calibration • Experimental Design • Python Data Processing
+**Hardware & Instrumentation:**  
+Raspberry Pi Pico, I2C Sensors, Scintillation Detectors, PMTs, Breadboards, Laser Cutting  
 
-3. Raspberry Pi Pico Entertainment System
+**Research & Engineering:**  
+Experimental Physics, System Modeling, Project Management, Technical Documentation  
 
-Embedded Systems & Prototyping • Team Engineering Project
-
-Overview
-
-Collaborated in a four-person Northeastern engineering team to design a low-cost, portable entertainment device built around the Raspberry Pi Pico.
+---ign a low-cost, portable entertainment device built around the Raspberry Pi Pico.
 
 Key Contributions
 
