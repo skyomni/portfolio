@@ -4,6 +4,7 @@
 **Lead Research Engineer • Embedded Systems Developer**
 
 Designed and built a CubeSat-style environmental sensing platform to study how pressure and temperature vary across multistory buildings.
+[Poster](https://github.com/skyomni/portfolio/blob/main/Assets%20Github/CubeSat%20Research%20Poster.png)
 
 **Key Contributions:**
 - Built custom CubeSat frame integrating **BMP280 pressure** and **MPU6050 temperature/IMU** sensors.  
@@ -12,7 +13,7 @@ Designed and built a CubeSat-style environmental sensing platform to study how p
 - Published research findings in  
   [**“Investigating Altitudinal Variations in Indoor Temperature Using CubeSat Pressure Data.”**](https://github.com/skyomni/portfolio/blob/main/Assets%20Github/2024%20Summer%20QCC%20Research%20Paper-%20SKYLERWANG.docx.pdf)
   
-[Research Poster](https://github.com/skyomni/portfolio/blob/main/Assets%20Github/CubeSat%20Research%20Poster.png)
+
 
 ---
 
