@@ -2,6 +2,7 @@
 
 ### Education
 Undergraduate, Electrical and Electronics Engineering | Northeastern University | In Progress | GPA: 4.0
+
 Davinvi Engineering | Benjamin N. Cardozo High School | Graduated '25 | GPA: 4.0
 
 ### Work Experience
@@ -10,11 +11,13 @@ Print Media Assistant @ Northeastern Oakland Makerspaces | September 2025 - Pres
 - Learned and efficiently operates all machines in the Print Media Shop
 - Managed inventory of cameras and other equipment checkout for the whole of NU Oakland Makerspaces
 - Frequently adapts to students' questions about the space and how it could be utilized for their projects
+  
 Lead Research Engineer @ Queensborough Community College | July 2024 - August 2024
 - Built and programmed a custom CubeSat equipped with a BMP280 barometric pressure sensor and an MPU6050 temperature sensor. 
 - Collected and analyzed multistory building pressure and temperature data to optimize HVAC system efficiency.  
 - Collaborated with faculty and research team members to refine experimental design and improve data accuracy. 
 - Presented research outcomes to faculty members
+  
 Barista @ Xing Fu Tang.Inc | June 2023 - September 2025
 - Created an efficient workflow for beverage preparation that reduced wait times by 30% 
 - Managed inventory levels, reducing waste by 67% through accurate forecasting and ordering 
@@ -22,7 +25,7 @@ Barista @ Xing Fu Tang.Inc | June 2023 - September 2025
 - Trained new baristas on proper brewing techniques, drink recipes, and customer service protocols
 
 ### Projects
-####1. CubeSat Environmental Sensing System
+##1. CubeSat Environmental Sensing System
 Lead Builder • Embedded Systems Developer • Independent Research Project
 #####Overview
 Designed and built a custom CubeSat-style sensing platform to analyze how atmospheric conditions vary across building floors, with the goal of improving large-building HVAC efficiency.
