@@ -11,8 +11,11 @@ Designed and built a CubeSat-style environmental sensing platform to study how p
 - Conducted multi-floor environmental tests and analyzed HVAC-relevant pressure/temperature patterns.  
 - Published research findings in  
   **“Investigating Altitudinal Variations in Indoor Temperature Using CubeSat Pressure Data.”**
+  
 [Publication](https://github.com/skyomni/portfolio/blob/main/Assets%20Github/2024%20Summer%20QCC%20Research%20Paper-%20SKYLERWANG.docx.pdf)
+
 [Research Poster](https://github.com/skyomni/portfolio/blob/main/Assets%20Github/CubeSat%20Research%20Poster.png)
+
 ---
 
 ### Cosmic Ray Muon Detector Research — Queensborough Community College  
