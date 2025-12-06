@@ -4,7 +4,6 @@ title: Arcadium Project
 nav_order: 4
 parent: Projects
 ---
-
 # Raspberry Pi Pico Entertainment System — “Arcadium”
 
 **Embedded Systems & Hardware Prototyping • Team Engineering Project**
