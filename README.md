@@ -28,7 +28,7 @@ Designed and built a CubeSat-style environmental sensing platform to study how p
 
 ---
 
-### Raspberry Pi Pico Entertainment System  
+### Raspberry Pi Pico Entertainment System - ["Arcadium"](arcadium.md)
 **Embedded Systems & Prototyping • Team Engineering Project**
 
 **Key Contributions:**
