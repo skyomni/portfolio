@@ -1,9 +1,21 @@
-title: Skyler Wang
+title: "Skyler Wang Portfolio"
+description: "Engineering Portfolio and Projects"
 
-description: Actively Pursuing Electrical Engineering | Northeastern ‘29 | 
+# Must use remote_theme for GitHub Pages
 remote_theme: just-the-docs/just-the-docs
+
 plugins:
   - jekyll-remote-theme
+
+# Sidebar / navigation order
 just_the_docs:
+  logo: "/assets/logo.png" # optional
   navigation_depth: 3
-  logo: /Assets Github/Profile.png
+  show_download: false
+
+# Optional: set homepage
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
