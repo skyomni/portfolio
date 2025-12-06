@@ -1,23 +1,10 @@
-# Site information
 title: "Skyler Wang Portfolio"
 description: "Engineering Portfolio and Projects"
 
-# Use remote_theme for GitHub Pages
 remote_theme: just-the-docs/just-the-docs
-
-# Required plugin for remote_theme
 plugins:
   - jekyll-remote-theme
 
-# Just-the-Docs settings
 just_the_docs:
-  logo: "/assets/logo.png"      # optional, your site logo
-  navigation_depth: 3           # how many levels to show in sidebar
+  navigation_depth: 2
   show_download: false
-
-# Default layout for all pages
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: default
