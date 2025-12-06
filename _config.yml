@@ -1,4 +1,7 @@
 title: Skyler Wang
-logo: /Assets Github/Profile.png
+
 description: Actively Pursuing Electrical Engineering | Northeastern ‘29 | 
-theme: jekyll-theme-minimal
+theme: just-the-docs
+just_the_docs:
+  navigation_depth: 3
+  logo: /Assets Github/Profile.png
