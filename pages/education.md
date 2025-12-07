@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Education
-parent: About me
+parent: About Me
 nav_order: 2
 ---
 
