@@ -2,7 +2,7 @@
 layout: default
 title: Education
 nav_order: 5
-parent: About
+parent: Career.md
 ---
 
 # Education
