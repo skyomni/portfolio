@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Education
-nav_order: 3
 parent: About me
+nav_order: 2
 ---
 
 # Education
