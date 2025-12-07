@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Education
-nav_order: 5
-parent: Career.md
+nav_order: 3
+parent: About me
 ---
 
 # Education
