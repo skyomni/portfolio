@@ -16,7 +16,7 @@ Designed a CubeSat-style environmental sensing platform to study indoor temperat
 - Built custom CubeSat frame integrating BMP280 pressure & MPU6050 IMU/temperature sensors
 - Programmed microcontroller firmware for continuous altitude and thermal data collection
 - Conducted multi-floor environmental tests
-- Published research findings: [Research Paper](/pages/pdfs/Cube-Sat-Research-Paper.html)
+- Published research findings: [Research Paper]([/pages/pdfs/Cube-Sat-Research-Paper.html](https://skyomni.github.io/portfolio/pages/pdfs/Cube-Sat-Research-Paper.html))
 
 - Poster:
 <img width="4608" height="3456" alt="CubeSat Research Poster" src="https://github.com/user-attachments/assets/e4c82c92-04f3-49e6-8d3c-774b953c29e6" />
