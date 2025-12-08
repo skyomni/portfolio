@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Work Experience
-nav_order: 6
+nav_order: 1
 parent: About Me
 ---
 
