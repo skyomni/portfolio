@@ -3,6 +3,7 @@ layout: default
 title: CubeSat Research
 parent: Projects
 nav_order: 2
+has_children: true
 ---
 
 # CubeSat Environmental Sensing System
