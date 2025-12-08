@@ -8,34 +8,26 @@ nav_order: 5
   .main-content {
     padding: 0 !important;
     max-width: 100% !important;
-  }
-  
-  .pdf-header {
-    padding: 1rem 2rem;
-    background-color: #f5f6fa;
-    border-bottom: 1px solid #d1d5da;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .pdf-header h1 {
-    margin: 0;
-    font-size: 1.5rem;
+    margin: 0 !important;
   }
   
   .pdf-container {
     width: 100%;
-    height: calc(100vh - 120px);
+    height: calc(100vh - 60px);
     border: none;
+  }
+  
+  .pdf-fallback {
+    padding: 2rem;
+    text-align: center;
   }
 </style>
 
-<div class="pdf-header">
-  <h1>Investigating Altitudinal Variations in Indoor Temperature Using CubeSat Pressure Data</h1>
-  <a href="Assets Github/2024 Summer QCC Research Paper- SKYLERWANG.docx.pdf" download class="btn btn-primary">Download PDF</a>
-</div>
-
 <div class="pdf-container">
-  <embed src="/assets/2024-Summer-QCC-Research-Paper-SKYLERWANG.pdf" type="application/pdf" width="100%" height="100%">
+  <object data="/Assets Github/2024 Summer QCC Research Paper- SKYLERWANG.docx.pdf" type="application/pdf" width="100%" height="100%">
+    <div class="pdf-fallback">
+      <p>Your browser doesn't support embedded PDFs.</p>
+      <a href="/Assets Github/2024 Summer QCC Research Paper- SKYLERWANG.docx.pdf" class="btn btn-primary">Download PDF</a>
+    </div>
+  </object>
 </div>
