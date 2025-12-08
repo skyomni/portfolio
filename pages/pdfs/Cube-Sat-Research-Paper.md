@@ -24,7 +24,7 @@ nav_order: 5
 </style>
 
 <div class="pdf-container">
-  <iframe src="assets-github/2024-Summer-QCC-Research-Paper-SKYLERWANG.pdf" width="100%" height="100%" style="border: none;">
-    <p>Your browser doesn't support embedded PDFs. <a href="assets-github/2024-Summer-QCC-Research-Paper-SKYLERWANG.pdf">Download the PDF</a>.</p>
+  <iframe src="{{ site.baseurl }}/assets-github/2024-Summer-QCC-Research-Paper-SKYLERWANG.pdf" width="100%" height="100%" style="border: none;">
+    <p>Your browser doesn't support embedded PDFs. <a href="{{ site.baseurl }}/assets-github/2024-Summer-QCC-Research-Paper-SKYLERWANG.pdf">Download the PDF</a>.</p>
   </iframe>
 </div>
