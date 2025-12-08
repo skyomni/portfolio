@@ -1,0 +1,41 @@
+---
+layout: default
+title: Research Paper
+nav_order: 5
+---
+
+<style>
+  .main-content {
+    padding: 0 !important;
+    max-width: 100% !important;
+  }
+  
+  .pdf-header {
+    padding: 1rem 2rem;
+    background-color: #f5f6fa;
+    border-bottom: 1px solid #d1d5da;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .pdf-header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .pdf-container {
+    width: 100%;
+    height: calc(100vh - 120px);
+    border: none;
+  }
+</style>
+
+<div class="pdf-header">
+  <h1>Investigating Altitudinal Variations in Indoor Temperature Using CubeSat Pressure Data</h1>
+  <a href="/assets/2024-Summer-QCC-Research-Paper-SKYLERWANG.pdf" download class="btn btn-primary">Download PDF</a>
+</div>
+
+<div class="pdf-container">
+  <embed src="/assets/2024-Summer-QCC-Research-Paper-SKYLERWANG.pdf" type="application/pdf" width="100%" height="100%">
+</div>
