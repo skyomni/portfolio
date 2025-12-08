@@ -2,7 +2,7 @@
 layout: default
 title: Arcadium Project
 parent: Projects
-nav_order: 4
+nav_order: 1
 ---
 # Raspberry Pi Pico Entertainment System — “Arcadium”
 
