@@ -24,10 +24,10 @@ nav_order: 5
 </style>
 
 <div class="pdf-container">
-  <object data="/assets-github/2024-Summer-QCC-Research-Paper-SKYLERWANG.pdf" type="application/pdf" width="100%" height="100%">
+  <object data="assets-github/2024-Summer-QCC-Research-Paper-SKYLERWANG.pdf" type="application/pdf" width="100%" height="100%">
     <div class="pdf-fallback">
       <p>Your browser doesn't support embedded PDFs.</p>
-      <a href="/assets-github/2024-Summer-QCC-Research-Paper-SKYLERWANG.pdf" class="btn btn-primary">Download PDF</a>
+      <a href="assets-github/2024-Summer-QCC-Research-Paper-SKYLERWANG.pdf" class="btn btn-primary">Download PDF</a>
     </div>
   </object>
 </div>
