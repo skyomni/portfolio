@@ -17,10 +17,10 @@ An interactive arcade-style game designed and developed using the Raspberry Pi P
 This project explores the engineering design process—from ideation and prototyping to CAD modeling, programming, and enclosure design. Our team of four developed multiple game concepts before selecting and refining a final design into a polished prototype.
 
 ### Project Members
-Jingwen Huang: [huang.jingwen@northeastern.edu](mailto:huang.jingwen@northeastern.edu)
-Dabian Taborda Restrepo: [tabordarestrepo.d@northeastern.edu](mailto:tabordarestrepo.d@northeastern.edu)
-Skyler Wang: [wang.sk@northeastern.edu](mailto:wang.sk@northeastern.edu)
-Eileen Zheng: [zheng.ei@northeastern.edu](mailto:huang.jingwen@northeastern.edu)
+- Jingwen Huang: [huang.jingwen@northeastern.edu](mailto:huang.jingwen@northeastern.edu)
+- Dabian Taborda Restrepo: [tabordarestrepo.d@northeastern.edu](mailto:tabordarestrepo.d@northeastern.edu)
+- Skyler Wang: [wang.sk@northeastern.edu](mailto:wang.sk@northeastern.edu)
+- Eileen Zheng: [zheng.ei@northeastern.edu](mailto:huang.jingwen@northeastern.edu)
 
 ### Key Features
 - Interactive gameplay using Raspberry Pi Pico
