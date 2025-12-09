@@ -12,7 +12,6 @@ This section contains the technical documentation and design files for the ARCAD
 ## Documentation Categories
 
 ### Sketches & Flowcharts
-- Flappy Bird Game:
 <style>
 .gallery {
   display: grid;
@@ -153,7 +152,6 @@ document.addEventListener('keydown', function(e) {
 
 
 ### Assembly Documentation
-- Internal wiring photos:
 <style>
 .gallery {
   display: grid;
@@ -294,41 +292,201 @@ document.addEventListener('keydown', function(e) {
   }
 });
 </script>
-- Component placement
-- Assembly process
-- Final enclosure views
-
-### Enclosure Design
-
-**Laser-Cut Enclosure Features:**
-- USB port access
-- Button placement
-
-- LCD window
-- Sensor mounting holes
-- Acrylic viewing panels
-
-**Multiple Viewing Angles:**
-- Front view
-- Side profile
-- Back panel
-- Internal layout
-- Close-up details
 
 ### CAD Drawings
 
-AutoCAD files and technical drawings showing:
-- Precise measurements
-- Component cutouts
-- Assembly specifications
-- Material specifications
 
-### Custom Parts
+<style>
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
 
-Custom fabricated components:
-- Laser-cut panels
-- 3D printed parts (if applicable)
-- Modified breadboard mounts
-- Custom brackets
+.gallery-item {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
 
-> **Note**: Insert actual images, flowcharts, and CAD files in this section during final assembly.
+.gallery-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery-caption {
+  padding: 1rem;
+  background: #f9fafb;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Lightbox styles */
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox.active {
+  display: flex;
+}
+
+.lightbox-content {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-weight: bold;
+}
+
+.lightbox-close:hover {
+  color: #ccc;
+}
+
+.lightbox-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 1.2rem;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+</style>
+<div class="gallery">
+  <div class="gallery-item" onclick="openLightbox('https://github.com/user-attachments/assets/d0d47c35-fd93-4950-82cd-061f215a8e47', 'candy_dispenser')">![]()
+    <img src="https://github.com/user-attachments/assets/d0d47c35-fd93-4950-82cd-061f215a8e47" alt="candy_dispenser">
+    <div class="gallery-caption">Candy Dispenser CAD Design</div>
+  </div>
+  <div class="gallery-item" onclick="openLightbox('https://github.com/user-attachments/assets/8eb9f440-2c7a-4659-ade9-af740a5f072a', 'arcadium_cad')">![ILCP_DTR]()
+    <img src="https://github.com/user-attachments/assets/8eb9f440-2c7a-4659-ade9-af740a5f072a" alt="arcadium_cad">
+    <div class="gallery-caption">Arcadium CAD Design</div>
+  </div>
+</div>
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+  <img id="lightbox-img" class="lightbox-content" src="" alt="">
+  <div id="lightbox-caption" class="lightbox-caption"></div>
+</div>
+<script>
+function openLightbox(imgSrc, caption) {
+  event.stopPropagation();
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+  const lightboxCaption = document.getElementById('lightbox-caption');
+  
+  lightboxImg.src = imgSrc;
+  lightboxCaption.textContent = caption;
+  lightbox.classList.add('active');
+}
+
+function closeLightbox() {
+  const lightbox = document.getElementById('lightbox');
+  lightbox.classList.remove('active');
+}
+
+// Close on Escape key
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') {
+    closeLightbox();
+  }
+});
+</script>
+
+
+### Custom 3D Rhino Designs
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
+<style>
+  model-viewer {
+    width: 100%;
+    height: 500px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    margin: 2rem 0;
+  }
+  
+  .model-section {
+    margin: 3rem 0;
+    padding: 2rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+  }
+  
+  .model-section h2 {
+    margin-top: 0;
+  }
+  
+  .instructions {
+    background: #f9fafb;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+  }
+</style>
+<div class="instructions">
+  <h3>🎯 How to Export from Rhino</h3>
+  <ol>
+    <li>Open your model in Rhino</li>
+    <li>Go to <strong>File → Export Selected</strong> (or Export)</li>
+    <li>Choose file type: <strong>glTF Binary (*.glb)</strong></li>
+    <li>Save the file</li>
+    <li>Upload to your <code>assets-github</code> folder</li>
+  </ol>
+  <p><strong>Alternative:</strong> If Rhino doesn't have .glb export, export as <strong>.obj</strong> then use an online converter like <a href="https://products.aspose.app/3d/conversion/obj-to-glb" target="_blank">this one</a>.</p>
+</div>
+<div class="model-section">
+  <h2>CubeSat Design</h2>
+  <p>Interactive 3D model from Rhino.</p>
+<model-viewer 
+ src="/assets-github/cubesat-model.glb"
+ alt="CubeSat 3D Model"
+ auto-rotate
+ camera-controls
+ shadow-intensity="1"
+ exposure="1">
+</model-viewer>
+</div>
+<div class="model-section">
+  <h2>Arcadium Enclosure</h2>
+  <p>CAD model of the Arcadium enclosure design.</p>
+<model-viewer 
+ src="/assets-github/arcadium-enclosure.glb"
+ alt="Arcadium Enclosure"
+ auto-rotate
+ camera-controls
+ shadow-intensity="1"
+ exposure="1">
+</model-viewer>
+</div>
