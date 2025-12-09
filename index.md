@@ -46,10 +46,10 @@ An interactive arcade-style game featuring custom enclosure design, clean electr
 
 ## Quick Navigation
 
+[📚 Education](pages/education.md){: .btn .btn-primary }
+[💼 Experience](pages/work-experience.md){: .btn .btn-primary }
+[📧 Contact](pages/contact.md){: .btn .btn-primary }
 
-[📚 Education](/pages/education.md)
-[💼 Experience](/pages/work-experience.md)
-[📧 Contact](/pages/contact.md)
 ---
 
 ## Skills & Expertise
