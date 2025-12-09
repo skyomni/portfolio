@@ -1,10 +1,10 @@
 ---
 layout: default
-title: 📞 Contact Me
+title: 📧 Contact Me
 nav_order: 10
 ---
 
-# 📞 Contact Me
+# 📧 Contact Me
 
 <div style="display: flex; align-items: center; gap: 2rem; margin: 2rem 0;">
   <img src="https://github.com/user-attachments/assets/7fd7508c-56e2-4b76-9d2f-2b686236f6be" alt="Your Name" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
