@@ -46,26 +46,10 @@ An interactive arcade-style game featuring custom enclosure design, clean electr
 
 ## Quick Navigation
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
-  <a href="https://skyomni.github.io/portfolio/pages/education.html" style="text-decoration: none; color: inherit;">
-    <div style="padding: 1.5rem; border: 2px solid #e5e7eb; border-radius: 8px; text-align: center; transition: border-color 0.3s;">
-      <h3 style="margin-top: 0;">📚 Education</h3>
-      <p style="margin-bottom: 0;">Academic background and coursework</p>
-    </div>
-  </a>
-  <a href="https://skyomni.github.io/portfolio/pages/work-experience.html" style="text-decoration: none; color: inherit;">
-    <div style="padding: 1.5rem; border: 2px solid #e5e7eb; border-radius: 8px; text-align: center; transition: border-color 0.3s;">
-      <h3 style="margin-top: 0;">💼 Experience</h3>
-      <p style="margin-bottom: 0;">Professional work and internships</p>
-    </div>
-  </a>
-  <a href="https://skyomni.github.io/portfolio/pages/contact.html" style="text-decoration: none; color: inherit;">
-    <div style="padding: 1.5rem; border: 2px solid #e5e7eb; border-radius: 8px; text-align: center; transition: border-color 0.3s;">
-      <h3 style="margin-top: 0;">📧 Contact</h3>
-      <p style="margin-bottom: 0;">Get in touch</p>
-    </div>
-  </a>
-</div>
+
+[📚 Education](/pages/education){: .btn .btn-primary }
+[💼 Experience](/pages/work-experience){: .btn .btn-primary }
+[📧 Contact](/pages/contact){: .btn .btn-primary }
 ---
 
 ## Skills & Expertise
