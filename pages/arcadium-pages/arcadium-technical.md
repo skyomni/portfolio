@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Technical Artifacts
+title: Project Documentation
 parent: 🎮 ARCADIUM
 nav_order: 4
 ---
 
 # Technical Artifacts
 
-This section contains the technical documentation and design files for the ARCADIUM project.
+This section contains the project documentation and design files for the ARCADIUM project.
 
 ## Documentation Categories
 
