@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Challenges & Solutions
-parent: ARCADIUM Project
+parent: ARCADIUM
 nav_order: 6
 ---
 
