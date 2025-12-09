@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Muon Detector Research
+title: 🔬 Muon Detector Research
 nav_order: 3
 parent: Projects
 ---
 
-# Cosmic Ray Muon Detector Research — Queensborough Community College
+# 🔬 Cosmic Ray Muon Detector Research — Queensborough Community College
 
 **Research Assistant • Experimental Particle Physics**
 
