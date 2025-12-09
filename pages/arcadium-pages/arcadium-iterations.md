@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Design Iterations
-parent: ARCADIUM
+parent: 🎮 ARCADIUM
 nav_order: 5
 ---
 
