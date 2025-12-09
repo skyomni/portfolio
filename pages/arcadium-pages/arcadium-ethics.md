@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ethical Considerations
-parent: ARCADIUM
+parent: 🎮 ARCADIUM
 nav_order: 10
 ---
 
