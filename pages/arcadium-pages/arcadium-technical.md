@@ -443,17 +443,20 @@ document.addEventListener('keydown', function(e) {
     border: 1px solid #e5e7eb;
     border-radius: 8px;
   }
+  
+  .model-section h2 {
+    margin-top: 0;
+  }
 </style>
 <div class="model-section">
-  <h2>Candy Dispenser Lever for Micro Servo SG90</h2>
-  <p>Interactive 3D model from Rhino.</p>
+  <h2>Candy Dispenser Lever</h2>
+  <p>3D model of the candy dispenser mechanism for the Arcadium project.</p>
 <model-viewer 
  src="/assets-github/candy_dispenser_lever.glb"
- alt="candy_dispenser_lever"
+ alt="Candy Dispenser Lever"
  auto-rotate
  camera-controls
  shadow-intensity="1"
  exposure="1">
 </model-viewer>
 </div>
-
