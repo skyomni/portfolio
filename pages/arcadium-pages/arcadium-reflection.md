@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Personal Reflections
-parent: ARCADIUM
+parent: 🎮 ARCADIUM
 nav_order: 8
 ---
 
