@@ -26,6 +26,7 @@ This section contains the technical documentation and design files for the ARCAD
   border-radius: 8px;
   overflow: hidden;
   transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
 }
 
 .gallery-item:hover {
@@ -47,25 +48,107 @@ This section contains the technical documentation and design files for the ARCAD
   font-size: 0.9rem;
   color: #666;
 }
+
+/* Lightbox styles */
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox.active {
+  display: flex;
+}
+
+.lightbox-content {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-weight: bold;
+}
+
+.lightbox-close:hover {
+  color: #ccc;
+}
+
+.lightbox-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 1.2rem;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
 </style>
 <div class="gallery">
-  <div class="gallery-item">
+  <div class="gallery-item" onclick="openLightbox('https://github.com/user-attachments/assets/52bea842-69e4-4a28-8aa8-eec527b7ced5', 'Flowchart For Flappy Bird Game')">
     <img src="https://github.com/user-attachments/assets/52bea842-69e4-4a28-8aa8-eec527b7ced5" alt="Flowchart For Flappy Bird Game">
-    <div class="Flowchart For Flappy Bird Game">Flowcart</div>
+    <div class="gallery-caption">Flowchart For Flappy Bird Game</div>
   </div>
-  <div class="gallery-item">
-    <img src="https://github.com/user-attachments/assets/a6c9b39d-2b24-4ee8-bc0a-692f27cf4157" alt="Screenshot 2025-11-04 175835">
-    <div class="Pseudocode for Flappy Bird Game">Drawing Title 2</div>
+  <div class="gallery-item" onclick="openLightbox('https://github.com/user-attachments/assets/a6c9b39d-2b24-4ee8-bc0a-692f27cf4157', 'Pseudocode for Flappy Bird Game')">
+    <img src="https://github.com/user-attachments/assets/a6c9b39d-2b24-4ee8-bc0a-692f27cf4157" alt="Pseudocode for Flappy Bird Game">
+    <div class="gallery-caption">Pseudocode for Flappy Bird Game</div>
   </div>
-  <div class="gallery-item">
-    <img src="https://github.com/user-attachments/assets/9484a2c7-22b4-437f-aee9-acfbd91021fdE" alt="Screenshot 2025-11-04 175019">
-    <div class="CAD Sketch of Enclosure of Flappy Bird Game">Drawing Title 3</div>
+  <div class="gallery-item" onclick="openLightbox('https://github.com/user-attachments/assets/9484a2c7-22b4-437f-aee9-acfbd91021fd', 'CAD Sketch of Enclosure of Flappy Bird Game')">
+    <img src="https://github.com/user-attachments/assets/9484a2c7-22b4-437f-aee9-acfbd91021fd" alt="CAD Sketch of Enclosure of Flappy Bird Game">
+    <div class="gallery-caption">CAD Sketch of Enclosure of Flappy Bird Game</div>
   </div>
-  <div class="gallery-item">
-    <img src="https://github.com/user-attachments/assets/d578bc83-3dab-44de-9b35-af8383d7ca0f" alt="Drawing 4">
-    <div class="Light game (made by: Dabian Taborda Restrepo)">Drawing Title 4</div>
+  <div class="gallery-item" onclick="openLightbox('https://github.com/user-attachments/assets/d578bc83-3dab-44de-9b35-af8383d7ca0f', 'Light game (made by: Dabian Taborda Restrepo)')">
+    <img src="https://github.com/user-attachments/assets/d578bc83-3dab-44de-9b35-af8383d7ca0f" alt="Light game">
+    <div class="gallery-caption">Light game (made by: Dabian Taborda Restrepo)</div>
   </div>
 </div>
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+  <img id="lightbox-img" class="lightbox-content" src="" alt="">
+  <div id="lightbox-caption" class="lightbox-caption"></div>
+</div>
+<script>
+function openLightbox(imgSrc, caption) {
+  event.stopPropagation();
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+  const lightboxCaption = document.getElementById('lightbox-caption');
+  
+  lightboxImg.src = imgSrc;
+  lightboxCaption.textContent = caption;
+  lightbox.classList.add('active');
+}
+
+function closeLightbox() {
+  const lightbox = document.getElementById('lightbox');
+  lightbox.classList.remove('active');
+}
+
+// Close on Escape key
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') {
+    closeLightbox();
+  }
+});
+</script>
 
 
 
