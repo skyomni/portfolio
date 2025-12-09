@@ -445,7 +445,7 @@ document.addEventListener('keydown', function(e) {
   }
 </style>
 <div class="model-section">
-  <h2>CubeSat Design</h2>
+  <h2>Candy Dispenser Lever for Micro Servo SG90</h2>
   <p>Interactive 3D model from Rhino.</p>
 <model-viewer 
  src="assets-github/candy_dispenser_lever.glb"
