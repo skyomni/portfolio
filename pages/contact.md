@@ -22,7 +22,7 @@ I'd love to hear from you! Whether you have questions about my projects, want to
 
 **GitHub**: [@skyomni](https://github.com/skyomni)
 
-**Unsplashed**: [@skyphotos](https://unsplash.com/@sky_photos)
+**Unsplashed**: [@sky_photos](https://unsplash.com/@sky_photos)
 
 ---
 
