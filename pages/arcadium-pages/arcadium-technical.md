@@ -385,11 +385,11 @@ document.addEventListener('keydown', function(e) {
 }
 </style>
 <div class="gallery">
-  <div class="gallery-item" onclick="openLightbox('https://github.com/user-attachments/assets/d0d47c35-fd93-4950-82cd-061f215a8e47', 'candy_dispenser')">![]()
+  <div class="gallery-item" onclick="openLightbox('https://github.com/user-attachments/assets/d0d47c35-fd93-4950-82cd-061f215a8e47', 'candy_dispenser')">
     <img src="https://github.com/user-attachments/assets/d0d47c35-fd93-4950-82cd-061f215a8e47" alt="candy_dispenser">
     <div class="gallery-caption">Candy Dispenser CAD Design</div>
   </div>
-  <div class="gallery-item" onclick="openLightbox('https://github.com/user-attachments/assets/8eb9f440-2c7a-4659-ade9-af740a5f072a', 'arcadium_cad')">![ILCP_DTR]()
+  <div class="gallery-item" onclick="openLightbox('https://github.com/user-attachments/assets/8eb9f440-2c7a-4659-ade9-af740a5f072a', 'arcadium_cad')">
     <img src="https://github.com/user-attachments/assets/8eb9f440-2c7a-4659-ade9-af740a5f072a" alt="arcadium_cad">
     <div class="gallery-caption">Arcadium CAD Design</div>
   </div>
