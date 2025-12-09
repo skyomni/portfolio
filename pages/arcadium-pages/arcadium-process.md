@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Development Process
-parent: ARCADIUM
+parent: 🎮 ARCADIUM
 nav_order: 3
 ---
 
@@ -37,6 +37,7 @@ The team chose Dabian's Light Reaction Game to finalize because:
 - It was fun, fast-paced, and programmable
 - It had the clearest pathway for feature expansion
 - It integrated components evenly across the kit
+- It met most requirements of the project
 
 **Identified Improvements:**
 - Larger final enclosure
