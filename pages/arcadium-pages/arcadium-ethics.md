@@ -78,11 +78,3 @@ Our project promotes:
 - How do we balance innovation with environmental responsibility?
 
 ---
-
-## Citations
-
-> **Note**: Insert citations here for:
-> - Material mining impact studies
-> - Electronics waste statistics
-> - Technology practice references
-> - Supply chain analysis sources
