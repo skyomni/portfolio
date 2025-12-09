@@ -180,7 +180,7 @@ document.addEventListener('keydown', function(e) {
   <h2>Arcadium in Action</h2>
   <p>Full demonstration of the Arcadium arcade game system, including gameplay and candy dispenser mechanism.</p>
   <video controls>
-    <source src="https://github.com/user-attachments/assets/4d54d5fd-9a84-4ea9-a962-04caf40eecd0" type="video/mp4">
+    <source src="/assets-github/IMG_3944.mov" type="video/mov">
     Your browser does not support the video tag.
   </video>
 </div>
