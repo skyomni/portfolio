@@ -443,50 +443,17 @@ document.addEventListener('keydown', function(e) {
     border: 1px solid #e5e7eb;
     border-radius: 8px;
   }
-  
-  .model-section h2 {
-    margin-top: 0;
-  }
-  
-  .instructions {
-    background: #f9fafb;
-    padding: 1.5rem;
-    border-radius: 8px;
-    margin: 2rem 0;
-  }
 </style>
-<div class="instructions">
-  <h3>🎯 How to Export from Rhino</h3>
-  <ol>
-    <li>Open your model in Rhino</li>
-    <li>Go to <strong>File → Export Selected</strong> (or Export)</li>
-    <li>Choose file type: <strong>glTF Binary (*.glb)</strong></li>
-    <li>Save the file</li>
-    <li>Upload to your <code>assets-github</code> folder</li>
-  </ol>
-  <p><strong>Alternative:</strong> If Rhino doesn't have .glb export, export as <strong>.obj</strong> then use an online converter like <a href="https://products.aspose.app/3d/conversion/obj-to-glb" target="_blank">this one</a>.</p>
-</div>
 <div class="model-section">
   <h2>CubeSat Design</h2>
   <p>Interactive 3D model from Rhino.</p>
 <model-viewer 
- src="/assets-github/cubesat-model.glb"
- alt="CubeSat 3D Model"
+ src="assets-github/candy_dispenser_lever.glb"
+ alt="Candy Dispenser Lever"
  auto-rotate
  camera-controls
  shadow-intensity="1"
  exposure="1">
 </model-viewer>
 </div>
-<div class="model-section">
-  <h2>Arcadium Enclosure</h2>
-  <p>CAD model of the Arcadium enclosure design.</p>
-<model-viewer 
- src="/assets-github/arcadium-enclosure.glb"
- alt="Arcadium Enclosure"
- auto-rotate
- camera-controls
- shadow-intensity="1"
- exposure="1">
-</model-viewer>
-</div>
+
