@@ -7,7 +7,7 @@ nav_order: 10
 # Contact Me
 
 <div style="display: flex; align-items: center; gap: 2rem; margin: 2rem 0;">
-  <img src="/assets-github/Profile.jpg" alt="Skyler Wang" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
+  <img src="/assets-github/Profile.png" alt="Skyler Wang" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
   <div>
     <h2 style="margin: 0; font-size: 2rem;">Skyler Wang</h2>
     <p style="margin: 0.5rem 0; font-size: 1.2rem; color: #666;">Electical Engineering Undergraduate At Northeastern</p>
