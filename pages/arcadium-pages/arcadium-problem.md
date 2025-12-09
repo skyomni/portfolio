@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Problem Definition
-parent: ARCADIUM
+parent: 🎮 ARCADIUM
 nav_order: 2
 ---
 
