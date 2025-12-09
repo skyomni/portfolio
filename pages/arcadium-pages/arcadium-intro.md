@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Introduction
-parent: ARCADIUM Project
+parent: ARCADIUM
 nav_order: 1
 ---
 
