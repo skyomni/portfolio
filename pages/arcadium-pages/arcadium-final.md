@@ -154,6 +154,38 @@ document.addEventListener('keydown', function(e) {
 
 ---
 
+## Project Demo Video
+
+### Watch the Arcadium project in action.
+
+<style>
+  .video-section {
+    margin: 2rem 0;
+    padding: 2rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+  }
+  
+  .video-section h2 {
+    margin-top: 0;
+  }
+  
+  video {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+</style>
+<div class="video-section">
+  <h2>Arcadium in Action</h2>
+  <p>Full demonstration of the Arcadium arcade game system, including gameplay and candy dispenser mechanism.</p>
+  <video controls>
+    <source src="https://github.com/user-attachments/assets/4d54d5fd-9a84-4ea9-a962-04caf40eecd0" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+---
+
 ## How the Final Design Solves the Original Problem
 
 Our final design successfully addresses the initial challenges:
