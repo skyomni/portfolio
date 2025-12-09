@@ -6,8 +6,13 @@ nav_order: 10
 
 # Contact Me
 
-<div style="text-align: center; margin: 2rem 0;">
-  <img src="/assets-github/Profile.jpg" alt="Your Name" style="border-radius: 50%; width: 200px; height: 200px; object-fit: cover; border: 3px solid #60a5fa;">
+<div style="display: flex; align-items: center; gap: 2rem; margin: 2rem 0;">
+  <img src="/assets-github/Profile.jpg" alt="Skyler Wang" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
+  <div>
+    <h2 style="margin: 0; font-size: 2rem;">Skyler Wang</h2>
+    <p style="margin: 0.5rem 0; font-size: 1.2rem; color: #666;">Electical Engineering Undergraduate At Northeastern</p>
+    <p style="margin: 0.5rem 0;"><a href="mailto:wang.sk@northeastern.edu">wang.sk@northeastern.edu</a></p>
+  </div>
 </div>
 
 I'd love to hear from you! Whether you have questions about my projects, want to collaborate, or just want to connect, feel free to reach out.
