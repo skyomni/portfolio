@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Project Narrative
-parent: ARCADIUM Project
+parent: ARCADIUM
 nav_order: 9
 ---
 
