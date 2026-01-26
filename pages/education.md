@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 📚 Education
+title: Education
 parent: About Me
 nav_order: 2
 ---
 
-# 📚 Education
+# Education
 
 ### Northeastern University
 **B.S. Electrical & Electronics Engineering** | In Progress | GPA: 4.0
