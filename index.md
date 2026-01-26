@@ -27,17 +27,17 @@ This portfolio showcases my journey through various engineering challenges, rese
 
 ## Featured Projects
 
-### 🛰️ CubeSat Research
+### CubeSat Research
 Investigating altitudinal variations in indoor temperature using CubeSat pressure data. This research project explores HVAC optimization through innovative sensor deployment and data analysis.
 
 [Learn More →](/pages/cubesat.md)
 
-### 🔬 Muon Detector Research
+### Muon Detector Research
 Advanced particle physics research focusing on cosmic ray detection and analysis using custom-built detection systems.
 
 [Learn More →](/pages/muon.md)
 
-### 🎮 Raspberry Pi Pico Entertainment System — Arcadium
+### Raspberry Pi Pico Entertainment System — Arcadium
 An interactive arcade-style game featuring custom enclosure design, clean electronics integration, and engaging gameplay mechanics.
 
 [Learn More →](/pages/arcadium.md)
@@ -46,9 +46,9 @@ An interactive arcade-style game featuring custom enclosure design, clean electr
 
 ## Quick Navigation
 
-[📚 Education](pages/education.md){: .btn .btn-primary }
-[💼 Experience](pages/work-experience.md){: .btn .btn-primary }
-[📧 Contact](pages/contact.md){: .btn .btn-primary }
+[Education](pages/education.md){: .btn .btn-primary }
+[Experience](pages/work-experience.md){: .btn .btn-primary }
+[Contact](pages/contact.md){: .btn .btn-primary }
 
 ---
 
