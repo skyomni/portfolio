@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 🎮 ARCADIUM
+title: ARCADIUM
 parent: Projects
 nav_order: 1
 has_children: true
 ---
 
-# 🎮 ARCADIUM: Arcade-Style Game Prototype & Final Group Project
+# ARCADIUM: Arcade-Style Game Prototype & Final Group Project
 
 An interactive arcade-style game designed and developed using the Raspberry Pi Pico microcontroller as part of a team engineering project.
 
