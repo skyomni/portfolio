@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Project Documentation
-parent: 🎮 ARCADIUM
+parent: ARCADIUM
 nav_order: 4
 ---
 
