@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Final Design Showcase
-parent: 🎮 ARCADIUM
+parent: ARCADIUM
 nav_order: 7
 ---
 
