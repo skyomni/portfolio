@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 💼 Work Experience 
+title: Work Experience 
 nav_order: 1
 parent: About Me
 ---
 
-# 💼 Work Experience 
+# Work Experience 
 
 [Print Media Assistant — Northeastern Oakland Makerspaces](https://makerspaces.northeastern.edu/){: .btn .btn-primary }
 
