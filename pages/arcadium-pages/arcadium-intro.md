@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Introduction
-parent: 🎮 ARCADIUM
+parent: ARCADIUM
 nav_order: 1
 ---
 
