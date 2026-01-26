@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Development Process
-parent: 🎮 ARCADIUM
+parent: ARCADIUM
 nav_order: 3
 ---
 
@@ -9,14 +9,14 @@ nav_order: 3
 
 ## Major Milestones
 
-### ✔ 10/28 — Brainstorming & Selecting Game Concepts
+### 10/28 — Brainstorming & Selecting Game Concepts
 
 We generated multiple game ideas and selected one per person to prototype individually. I chose Flappy Bird, focusing on programming logic and enclosure rough layout. We documented:
 - Materials needed
 - Wiring concepts
 - CAD requirements
 
-### ✔ 11/4 — Individual Prototypes Completed
+### 11/4 — Individual Prototypes Completed
 
 Each member created cardboard prototypes and functioning game logic:
 
@@ -31,7 +31,7 @@ Each member created cardboard prototypes and functioning game logic:
 - Wires messy → Looked into flat cables
 - Button placement ergonomics unclear → Adjusted in CAD
 
-### ✔ 11/18 — Final Project Selection & Improvements Planning
+### 11/18 — Final Project Selection & Improvements Planning
 
 The team chose Dabian's Light Reaction Game to finalize because:
 - It was fun, fast-paced, and programmable
