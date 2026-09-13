@@ -1,6 +1,9 @@
 title: "Skyler Wang Portfolio"
 description: "Engineering Portfolio and Projects"
 
+url: "https://skyomni.github.io"
+baseurl: "/portfolio"
+
 remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme

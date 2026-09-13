@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cube Sat Research Paper
-parent: 🛰️ CubeSat Research
+parent: CubeSat Research
 nav_order: 1
 ---
 
