@@ -20,7 +20,7 @@ This project explores the engineering design process—from ideation and prototy
 - Jingwen Huang: [huang.jingwen@northeastern.edu](mailto:huang.jingwen@northeastern.edu)
 - Dabian Taborda Restrepo: [tabordarestrepo.d@northeastern.edu](mailto:tabordarestrepo.d@northeastern.edu)
 - Skyler Wang: [wang.sk@northeastern.edu](mailto:wang.sk@northeastern.edu)
-- Eileen Zheng: [zheng.ei@northeastern.edu](mailto:huang.jingwen@northeastern.edu)
+- Eileen Zheng: [zheng.ei@northeastern.edu](mailto:zheng.ei@northeastern.edu)
 
 ### Key Features
 - Interactive gameplay using Raspberry Pi Pico

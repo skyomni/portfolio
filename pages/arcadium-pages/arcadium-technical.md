@@ -452,7 +452,7 @@ document.addEventListener('keydown', function(e) {
   <h2>Candy Dispenser Lever</h2>
   <p>3D model of the candy dispenser mechanism for the Arcadium project.</p>
 <model-viewer 
- src="/assets-github/candy_dispenser_lever.glb"
+ src="{{ site.baseurl }}/assets-github/candy_dispenser_lever.glb"
  alt="Candy Dispenser Lever"
  auto-rotate
  camera-controls
