@@ -6,41 +6,46 @@ grand_parent: Projects
 nav_order: 2
 ---
 
-# Problem Definition
+# Define the Problem
 
 ## The Problem
 
-<!--
-TODO: Replace with the specific problem statement / design brief from your project report.
-Suggested starting point based on the project's purpose:
--->
+Fifth grade students at Melrose Leadership Academy lacked consistent access to inclusive, standards-aligned STEM games that fit within a single class period. The options available to their teachers were generally:
 
-5th grade classrooms often rely on flashcards or screen-only quiz apps to reinforce STEM concepts, both of which struggle to hold student attention over repeated review sessions. There was a need for a review tool that:
+- **Too reading-heavy**, which disadvantaged students still building reading fluency
+- **Not interactive enough** to hold attention across repeated review sessions
+- **Misaligned** with the Common Core, EUREKA, and FOSS standards the classroom actually follows
+- **Built on unfair reward mechanics**, with random or probability-based systems that can discourage students who are already struggling
 
-- Gives students an immediate, physical sense of reward for correct answers
-- Works reliably in a classroom setting with minimal supervision
-- Is durable enough to withstand repeated use by multiple students
-- Can be easily updated with new questions as curriculum changes
+Teachers needed a game that was easy to set up, engaging for a range of learners, and structured to support measurable learning outcomes without relying on addictive reward systems.
+
+## Design Goals
+
+The team defined ten goals for the system, each with a measurable success criterion:
+
+| Goal | Success criterion |
+|---|---|
+| Teaches 5th grade STEM standards | ≥80% answer 3 post-game questions correctly |
+| Engaging, encourages persistence | ≥75% stay on-task without redirection |
+| Supports collaboration | Cooperative interaction observed in ≥50% of groups |
+| Builds confidence through mastery | No student reports feeling permanently stuck |
+| Safe for 5th graders | Zero sharp edges, exposed wiring, or choking hazards (pass/fail) |
+| Clear, intuitive instructions | Students begin playing within 5 minutes; ≥80% can explain the goal |
+| Feedback helps students understand outcomes | ≥80% can identify what they did and why |
+| Accessible to diverse learners | All learner types participate without extra adult support |
+| Easy for teacher to set up | Setup rated ≤2/5 difficulty; explained to class in under 3 minutes |
+| No addictive or unfair rewards | No random rewards; nothing flagged in design review |
 
 ## Design Constraints
 
-<!-- TODO: Pull the actual constraints from your report (budget, size, timeline, safety requirements, etc.) -->
-
-- **Hardware:** Raspberry Pi Zero 2 WH — limited processing power and GPIO pins compared to larger single-board computers
-- **Safety:** Moving servo mechanism and electronics must be safely enclosed for use around children
-- **Usability:** Interface needed to be simple enough for 5th graders to navigate independently
-- **Budget/Timeline:** *(add your specific constraints here)*
+- **Low cost** — the build had to stay within project budget using accessible, widely available materials
+- **4–5 electronic components** — exactly four to five components, each serving a clear functional role rather than a decorative one
+- **Fits one class period** — full session including setup, play, and wrap-up in 45–60 minutes
+- **Hardware** — Raspberry Pi Zero 2 WH, with limited processing power and GPIO availability
+- **Safety** — moving servo parts and live electronics fully enclosed for use around children
+- **Fabrication** — limited Makerspace hours and shared access to laser cutters and 3D printers
 
 ## Target Users
 
-- Primary: 5th grade students in a classroom setting
-- Secondary: Teachers who need an easy way to run review sessions
-
-## Success Criteria
-
-<!-- TODO: List the criteria you defined for a successful design, e.g. -->
-
-- Students can complete a full trivia round without adult intervention
-- Correct answers reliably trigger the servo/LED feedback within a short delay
-- The enclosure withstands normal classroom handling
-- The system supports both individual and group (multiplayer) play
+- **Primary**: 5th grade students at Melrose Leadership Academy, across a range of reading levels and learning styles
+- **Secondary**: teachers who need a low-supervision review activity that drops into an existing lesson
