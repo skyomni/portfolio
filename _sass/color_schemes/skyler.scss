@@ -1,0 +1,22 @@
+// Skyler Wang — docs colour scheme, matched to the landing page palette.
+// Builds on Just the Docs' built-in dark scheme.
+@import "./color_schemes/dark";
+
+$body-background-color:        #0a0c10;
+$sidebar-color:                #0f131a;
+$search-background-color:      #141924;
+$table-background-color:       #141924;
+$code-background-color:        #141924;
+$feedback-color:               darken($sidebar-color, 3%);
+
+$body-text-color:              #c3ccd8;
+$body-heading-color:           #e9edf3;
+$nav-child-link-color:         #9aa6b6;
+$search-result-preview-color:  #6b7786;
+
+$link-color:                   #4da3ff;
+$btn-primary-color:            #4da3ff;
+$base-button-color:            #1b2230;
+
+$border-color:                 #232c3b;
+$border-radius:                8px;
