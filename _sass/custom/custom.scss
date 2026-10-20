@@ -1,0 +1,85 @@
+// Structural polish for the documentation pages so they read as part of the
+// same site as the landing page.
+
+.side-bar {
+  border-right: 1px solid $border-color;
+}
+
+.site-title,
+.site-title:hover {
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 0.86rem !important;
+  color: $body-heading-color;
+}
+
+.main-header {
+  border-bottom: 1px solid $border-color;
+}
+
+// Tables: the project docs lean on these heavily
+.main-content {
+  table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+  }
+  th {
+    background-color: #1b2230;
+    color: $body-heading-color;
+    font-weight: 600;
+  }
+  th, td {
+    border: 1px solid $border-color;
+    padding: 0.6rem 0.75rem;
+  }
+  tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.015);
+  }
+
+  blockquote {
+    border-left: 3px solid $link-color;
+    background: rgba(77, 163, 255, 0.07);
+    padding: 0.75rem 1rem;
+    margin-left: 0;
+    color: $body-text-color;
+  }
+
+  img {
+    border-radius: 8px;
+  }
+
+  h1, h2, h3, h4 {
+    letter-spacing: -0.015em;
+  }
+
+  h2 {
+    margin-top: 2.4rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid $border-color;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px solid $border-color;
+    margin: 2.2rem 0;
+  }
+}
+
+// The per-page galleries in the project docs set their own light-ish
+// surfaces inline; nudge them back toward the dark palette.
+.gallery-item {
+  border-color: $border-color !important;
+  background: #141924;
+}
+.gallery-caption {
+  background: #1b2230 !important;
+  color: #9aa6b6 !important;
+}
+.model-section,
+.video-section {
+  border-color: $border-color !important;
+  background: #141924;
+}

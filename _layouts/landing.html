@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }} — Skyler Wang</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+
+  <meta property="og:title" content="Skyler Wang — Electrical Engineering">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}/">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>document.documentElement.className += " has-js";</script>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/landing.css">
+  <style>
+    body { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    .hero__bg { background-image: url("{{ site.baseurl }}/assets-github/photography/golden-gate.jpg"); }
+  </style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav__inner">
+    <a class="nav__brand" href="#home">SKYLER<span>.</span>WANG</a>
+    <button class="nav__toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+    </button>
+    <nav>
+      <ul class="nav__links">
+        <li><a href="#home" class="is-active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#photography">Photography</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+{{ content }}
+</main>
+
+<div class="wrap">
+  <footer class="foot">
+    <span>&copy; {{ 'now' | date: "%Y" }} Skyler Wang</span>
+    <span>Built with Jekyll &middot; <a href="https://github.com/skyomni/portfolio">Source on GitHub</a></span>
+  </footer>
+</div>
+
+<div class="lb" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <button class="lb__x" aria-label="Close">&times;</button>
+  <button class="lb__nav lb__nav--prev" aria-label="Previous photo">&#8249;</button>
+  <img src="" alt="">
+  <button class="lb__nav lb__nav--next" aria-label="Next photo">&#8250;</button>
+  <div class="lb__cap"></div>
+</div>
+
+<script src="{{ site.baseurl }}/assets/js/landing.js"></script>
+</body>
+</html>

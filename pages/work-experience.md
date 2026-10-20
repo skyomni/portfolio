@@ -1,31 +1,50 @@
 ---
 layout: default
-title: Work Experience 
+title: Work Experience
 nav_order: 1
 parent: About Me
 ---
 
-# Work Experience 
+# Work Experience
 
-[Print Media Assistant — Northeastern Oakland Makerspaces](https://makerspaces.northeastern.edu/){: .btn .btn-primary }
+[Download full resume (PDF)]({{ site.baseurl }}/assets-github/resume/Skyler-Wang-Resume.pdf){: .btn .btn-primary }
 
-**September 2025 – Present**
-- Conducts safety orientations and manages Makerspace operations
-- Operates 3D printers, laser cutters, vinyl cutters, and print equipment
-- Oversees equipment checkout
-- Provides fabrication guidance to students
+---
 
-[Lead Research Engineer — Queensborough Community College](https://www.qcc.cuny.edu/){: .btn .btn-primary }
+## FYELIC Red Vest
+**Northeastern University College of Engineering** — Boston, MA
+*July 2026 – Present*
 
-**July 2024 – August 2024**
-- Built and programmed CubeSat for indoor atmospheric analysis
-- Collected multi-story pressure and temperature data
-- Collaborated with faculty on experimental design and data verification
+First Year Engineering Learning and Innovation Center.
 
-[Barista — Xing Fu Tang Inc](https://xingfutang.com/home){: .btn .btn-primary }
+- **Engineering support**: Support 20–30 students per shift with electrical, embedded, CAD, and fabrication projects by troubleshooting circuits, wiring, Raspberry Pi systems, Python, and mechanical designs.
+- **Technical training & equipment**: Train and supervise students on soldering stations, 3D printers, and fabrication equipment while troubleshooting tools and enforcing laboratory safety procedures.
 
-**June 2023 – September 2025**
-- Optimized workflow to reduce wait times by 30%
-- Reduced material waste by 67%
-- Maintained drink quality and customer satisfaction
-- Trained new staff on equipment and workflow
+---
+
+## Makerspace Explorer
+**Northeastern University EXP Makerspace** — Boston, MA
+*June 2026 – Present*
+
+- **Fabrication & prototyping**: Support 15–30 users per shift with PCB milling, soldering, 3D printing, laser cutting, and mechanical assembly while guiding independent prototype development.
+- **PCB fabrication & equipment**: Train users on the Bantam Tools PCB mill and fabrication equipment while supporting setup, safe operation, troubleshooting, and basic equipment maintenance.
+
+---
+
+## Print Media Assistant
+**Northeastern University Oakland Makerspaces** — Oakland, CA
+*September 2025 – April 2026*
+
+- **Process development**: Developed and implemented a barcode-based checkout system for the Oakland makerspace, centralizing equipment tracking and streamlining equipment loans for students and staff.
+- **Event leadership**: Created, organized, and led fully booked student makerspace events by developing activities, coordinating equipment and materials, managing logistics, and facilitating hands-on workshops.
+
+---
+
+## Researcher
+**Queensborough Community College (CUNY)** — Queens, NY
+*July 2024 – August 2024*
+
+- **Embedded system development**: Designed and built an embedded sensing system integrating BMP280 pressure/altitude and MPU6050 motion/temperature sensors for multistory environmental data collection.
+- **Testing & data analysis**: Improved measurement reliability through electrical and sensor troubleshooting, then processed and visualized temperature, pressure, and altitude data using Python.
+
+See [CubeSat Research]({{ site.baseurl }}/pages/cubesat.html) for the resulting project and paper.

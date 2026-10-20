@@ -1,5 +1,5 @@
-title: "Skyler Wang Portfolio"
-description: "Engineering Portfolio and Projects"
+title: "Skyler Wang"
+description: "Electrical Engineering student at Northeastern University — embedded systems, fabrication, and photography."
 
 url: "https://skyomni.github.io"
 baseurl: "/portfolio"
@@ -8,6 +8,29 @@ remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
 
+# Dark scheme to match the landing page; tuned in _sass/custom/custom.scss
+color_scheme: skyler
+
+# Link back to the landing page from the docs sidebar
+nav_external_links:
+  - title: "Back to home"
+    url: "/portfolio/"
+    hide_icon: true
+
+aux_links:
+  "GitHub":
+    - "https://github.com/skyomni"
+  "LinkedIn":
+    - "https://www.linkedin.com/in/skyler-wang-neu/"
+aux_links_new_tab: true
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
 just_the_docs:
   navigation_depth: 6
   show_download: true
+
+# index.html renders the standalone landing layout, not the docs chrome
+exclude:
+  - README.md
