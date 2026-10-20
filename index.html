@@ -91,116 +91,33 @@ description: "Skyler Wang — Electrical Engineering student at Northeastern Uni
 <!-- ============================ RESUME ============================ -->
 <section class="section" id="resume">
   <div class="wrap">
-    <p class="section__label reveal">Resume</p>
-    <h2 class="section__title reveal" data-delay="60">What I work with.</h2>
-    <p class="section__lead reveal" data-delay="100">
-      A condensed view &mdash; the full PDF has everything.
-    </p>
+    <div class="resume">
+      <div class="resume__intro">
+        <p class="section__label reveal">Resume</p>
+        <h2 class="section__title reveal" data-delay="60">What I work with.</h2>
+        <p class="section__lead reveal" data-delay="100">
+          Education, skills, experience, and projects &mdash; all on one page.
+        </p>
 
-    <div class="reveal" data-delay="130" style="margin:-24px 0 46px;">
-      <a class="btn btn--primary" href="{{ site.baseurl }}/assets-github/resume/Skyler-Wang-Resume.pdf" target="_blank" rel="noopener">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 3v12m0 0 4-4m-4 4-4-4M4 19h16"/></svg>
-        Download PDF
+        <div class="resume__actions reveal" data-delay="130">
+          <a class="btn btn--primary" href="{{ site.baseurl }}/assets-github/resume/Skyler-Wang-Resume.pdf" download>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 3v12m0 0 4-4m-4 4-4-4M4 19h16"/></svg>
+            Download PDF
+          </a>
+          <a class="btn" href="{{ site.baseurl }}/assets-github/resume/Skyler-Wang-Resume.pdf" target="_blank" rel="noopener">
+            Open in new tab
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Rendered from the PDF so it displays on every device, phones included.
+           After updating the PDF, regenerate with:
+           pdftoppm -r 200 -png -singlefile assets-github/resume/Skyler-Wang-Resume.pdf assets-github/resume/Skyler-Wang-Resume -->
+      <a class="resume__sheet reveal" data-delay="100" href="{{ site.baseurl }}/assets-github/resume/Skyler-Wang-Resume.pdf" target="_blank" rel="noopener">
+        <img src="{{ site.baseurl }}/assets-github/resume/Skyler-Wang-Resume.png" width="1700" height="2200" loading="lazy"
+             alt="Skyler Wang's resume: Northeastern University B.S. Electrical Engineering (expected 2029, GPA 3.89); technical skills in embedded systems, programming, CAD, and fabrication; work at the FYELIC, EXP Makerspace, Oakland Makerspaces, and Queensborough Community College; and engineering projects including CADodiles.">
       </a>
-    </div>
-
-    <div class="resume-grid">
-      <!-- Skills -->
-      <div class="reveal" data-delay="60">
-        <h3 class="col__head">Technical Skills</h3>
-
-        <div class="skill">
-          <div class="skill__name">Electrical &amp; Embedded</div>
-          <div class="skill__items">AC/DC circuits &middot; breadboarding &middot; circuit prototyping &middot; sensor interfacing &middot; I2C &middot; GPIO &middot; Raspberry Pi &middot; Arduino &middot; soldering &middot; multimeters &middot; data acquisition</div>
-        </div>
-        <div class="skill">
-          <div class="skill__name">Programming &amp; Simulation</div>
-          <div class="skill__items">Python &middot; C/C++ &middot; MATLAB &middot; Kivy &middot; LTspice &middot; Intel Quartus Prime</div>
-        </div>
-        <div class="skill">
-          <div class="skill__name">CAD &amp; Design</div>
-          <div class="skill__items">SolidWorks &middot; Onshape &middot; AutoCAD &middot; Rhino 3D</div>
-        </div>
-        <div class="skill">
-          <div class="skill__name">Fabrication &amp; Prototyping</div>
-          <div class="skill__items">PCB milling &middot; 3D printing &middot; laser cutting &middot; mechanical assembly &middot; woodworking</div>
-        </div>
-      </div>
-
-      <!-- Experience -->
-      <div class="reveal" data-delay="120">
-        <h3 class="col__head">Experience</h3>
-        <div class="timeline">
-
-          <div class="tl-item">
-            <div class="tl-org">Northeastern University College of Engineering</div>
-            <div class="tl-role">FYELIC Red Vest</div>
-            <div class="tl-when">July 2026 &ndash; Present &middot; Boston, MA</div>
-            <ul class="tl-points">
-              <li>Support 20&ndash;30 students per shift across electrical, embedded, CAD, and fabrication projects.</li>
-              <li>Train and supervise students on soldering stations, 3D printers, and fabrication equipment while enforcing lab safety.</li>
-            </ul>
-          </div>
-
-          <div class="tl-item">
-            <div class="tl-org">Northeastern University EXP Makerspace</div>
-            <div class="tl-role">Makerspace Explorer</div>
-            <div class="tl-when">June 2026 &ndash; Present &middot; Boston, MA</div>
-            <ul class="tl-points">
-              <li>Support 15&ndash;30 users per shift with PCB milling, soldering, 3D printing, laser cutting, and mechanical assembly.</li>
-              <li>Train users on the Bantam Tools PCB mill, covering setup, safe operation, troubleshooting, and maintenance.</li>
-            </ul>
-          </div>
-
-          <div class="tl-item">
-            <div class="tl-org">Northeastern University Oakland Makerspaces</div>
-            <div class="tl-role">Print Media Assistant</div>
-            <div class="tl-when">September 2025 &ndash; April 2026 &middot; Oakland, CA</div>
-            <ul class="tl-points">
-              <li>Built a barcode-based checkout system that centralized equipment tracking and streamlined loans.</li>
-              <li>Created and led fully booked student makerspace events, from activity design through logistics.</li>
-            </ul>
-          </div>
-
-          <div class="tl-item">
-            <div class="tl-org">Queensborough Community College (CUNY)</div>
-            <div class="tl-role">Researcher</div>
-            <div class="tl-when">July 2024 &ndash; August 2024 &middot; Queens, NY</div>
-            <ul class="tl-points">
-              <li>Designed an embedded sensing system integrating BMP280 pressure/altitude and MPU6050 motion/temperature sensors.</li>
-              <li>Improved measurement reliability through sensor troubleshooting, then processed and visualized the data in Python.</li>
-            </ul>
-          </div>
-
-        </div>
-      </div>
-
-      <!-- Education + extras -->
-      <div class="reveal" data-delay="180">
-        <h3 class="col__head">Education</h3>
-        <div class="edu">
-          <div class="edu__school">Northeastern University</div>
-          <div class="edu__detail">B.S. Electrical Engineering</div>
-          <div class="edu__meta">Expected 2029 &middot; GPA 3.89 &middot; Boston, MA</div>
-        </div>
-
-        <h3 class="col__head">Coursework</h3>
-        <ul class="taglist">
-          <li>Circuits &amp; Signals</li>
-          <li>Embedded Design</li>
-          <li>Computing Fundamentals for Engineers</li>
-          <li>Fundamentals of Networks</li>
-        </ul>
-
-        <h3 class="col__head">Beyond the Lab</h3>
-        <ul class="taglist">
-          <li>Photography</li>
-          <li>Astronomy</li>
-          <li>Woodworking</li>
-          <li>Volleyball</li>
-          <li>Travel</li>
-        </ul>
-      </div>
     </div>
   </div>
 </section>
@@ -219,7 +136,7 @@ description: "Skyler Wang — Electrical Engineering student at Northeastern Uni
 
       <article class="card reveal" data-delay="60">
         <div class="card__media">
-          <img src="{{ site.baseurl }}/assets-github/cadodiles/final-dispenser.jpg" alt="CADodiles dispenser" loading="lazy">
+          <img src="{{ site.baseurl }}/assets-github/cadodiles/team-photo.jpg" alt="The CADodiles team holding the dispenser and play boards" loading="lazy" style="object-position: center 35%;">
           <span class="card__tag">Spring 2026</span>
         </div>
         <div class="card__body">
@@ -311,7 +228,7 @@ description: "Skyler Wang — Electrical Engineering student at Northeastern Uni
       <figure class="shot"><img src="{{ site.baseurl }}/assets-github/photography/zoo-kids.jpg" alt="Two people mirroring a dance pose in front of an enclosure" loading="lazy"><figcaption class="shot__cap">Caught mid-step</figcaption></figure>
     </div>
 
-    <div class="reveal" data-delay="180" style="margin-top:34px;">
+    <div class="gallery__more reveal" data-delay="180">
       <a class="btn" href="https://unsplash.com/@sky_photos" target="_blank" rel="noopener">
         View the full set on Unsplash
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M7 17 17 7M8 7h9v9"/></svg>
