@@ -145,9 +145,9 @@ The servo and LED strip are driven from an external USB power bank rather than t
 | Waveshare 7" HDMI Touchscreen | 1 | Amazon | $46.59 | Display and touch input |
 | MG90S Micro Servo Motor (180°) | 1 | FYELIC | $8.00 | Drives the dispensing wheel |
 | WS2812B ECO LED Strip | 1 | Amazon | $13.99 | Visual feedback lighting |
-| GPIO wiring and connectors | — | FYELIC | $5.00 | Electrical connections |
-| Plywood (dispenser + boards) | — | Makerspace | $10.00 | Structural material |
-| Acrylic paint | — | Makerspace | $5.00 | Aesthetic finishing |
+| GPIO wiring and connectors | N/A | FYELIC | $5.00 | Electrical connections |
+| Plywood (dispenser + boards) | N/A | Makerspace | $10.00 | Structural material |
+| Acrylic paint | N/A | Makerspace | $5.00 | Aesthetic finishing |
 | 3D-printed wheel (PLA) | 1 | Makerspace | $5.00 | Dispensing mechanism |
 | **Total (theoretical)** | | | **$119.57** | |
 | **Total (actual)** | | | **$86.57** | |
@@ -163,7 +163,7 @@ All mechanical design work was done in SolidWorks and AutoCAD. Native part and a
 <div class="gallery">
   <div class="gallery-item drawing" onclick="openLightbox(event, '{{ site.baseurl }}/assets-github/cadodiles/cad-dispenser-assembly.png', 'Dispenser Box Assembly (Assem2) - exploded view with servo, Raspberry Pi, and buzzer components')">
     <img src="{{ site.baseurl }}/assets-github/cadodiles/cad-dispenser-assembly.png" alt="Dispenser box assembly drawing">
-    <div class="gallery-caption">Dispenser Box Assembly &mdash; Exploded View</div>
+    <div class="gallery-caption">Dispenser Box Assembly (Exploded View)</div>
   </div>
   <div class="gallery-item drawing" onclick="openLightbox(event, '{{ site.baseurl }}/assets-github/cadodiles/cad-dispenser-drawing.png', 'Dispenser enclosure drawing - orthographic views and dimensions')">
     <img src="{{ site.baseurl }}/assets-github/cadodiles/cad-dispenser-drawing.png" alt="Dispenser enclosure drawing">
@@ -189,15 +189,15 @@ All mechanical design work was done in SolidWorks and AutoCAD. Native part and a
 
 ### CAD File Inventory
 
-**Assemblies** — `PLAYBOARD ASM.SLDASM`, `spinwheel with servo.SLDASM`, `Assem2.SLDASM`, `Assem5.SLDASM`, plus reference models for the Raspberry Pi Zero 2 W and the 7" display used for internal clearance checks.
+**Assemblies**: `PLAYBOARD ASM.SLDASM`, `spinwheel with servo.SLDASM`, `Assem2.SLDASM`, `Assem5.SLDASM`, plus reference models for the Raspberry Pi Zero 2 W and the 7" display used for internal clearance checks.
 
-**Enclosure parts** — `Bottom.SLDPRT`, `Wall1`–`Wall4`, `insert1`/`Insert2`/`insert4`, `lcd bakc coverup.SLDPRT`
+**Enclosure parts**: `Bottom.SLDPRT`, `Wall1`–`Wall4`, `insert1`/`Insert2`/`insert4`, `lcd bakc coverup.SLDPRT`
 
-**Mechanism parts** — `servo_holder.SLDPRT`, `ramp.SLDPRT`, `dispenser leveling 2.SLDPRT`, `Buzzer_HC-12085.SLDPRT`
+**Mechanism parts**: `servo_holder.SLDPRT`, `ramp.SLDPRT`, `dispenser leveling 2.SLDPRT`, `Buzzer_HC-12085.SLDPRT`
 
-**Play board iterations** — eleven modeled revisions (`play1`–`play11`) before the final version, plus a 2D drawing in `Playboard.dwg`
+**Play board iterations**: eleven modeled revisions (`play1`–`play11`) before the final version, plus a 2D drawing in `Playboard.dwg`
 
-**3D printed game pieces** — `L-BLock.stl`, `Squareblock.stl`
+**3D printed game pieces**: `L-BLock.stl`, `Squareblock.stl`
 
 ---
 
@@ -236,15 +236,15 @@ SplashScreen ── SettingsScreen                         └─ (play again / 
 
 The interface is drawn with a retro pixel-art aesthetic rather than stock Kivy styling:
 
-- `PixelBG` — procedurally generated grass, dirt, brick, and pipe background texture
-- `PixelButton` — chunky beveled button with pressed-state rendering
-- `ChapterCard` — selectable card showing a chapter title and subtitle
-- `HomeButton` — persistent navigation control in the top bar
-- `LangToggle` — live English / Spanish switch that re-renders the current screen in place
+- `PixelBG`: procedurally generated grass, dirt, brick, and pipe background texture
+- `PixelButton`: chunky beveled button with pressed-state rendering
+- `ChapterCard`: selectable card showing a chapter title and subtitle
+- `HomeButton`: persistent navigation control in the top bar
+- `LangToggle`: live English / Spanish switch that re-renders the current screen in place
 
 ### Hardware Abstraction
 
-`hardware.py` exposes two high-level calls that the game loop uses — `on_correct()` and `on_wrong()` — each of which fans out to the LED, buzzer, and servo subsystems. Every effect runs on a daemon thread so feedback never blocks the UI.
+`hardware.py` exposes two high-level calls that the game loop uses, `on_correct()` and `on_wrong()`, each of which fans out to the LED, buzzer, and servo subsystems. Every effect runs on a daemon thread so feedback never blocks the UI.
 
 Each subsystem is initialized independently inside a `try`/`except`. If a device is missing, that subsystem falls back to printing a `[STUB]` message and the rest of the game continues to run. This means the full application can be developed and demonstrated on a laptop with no GPIO hardware attached.
 

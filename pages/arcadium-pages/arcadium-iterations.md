@@ -9,7 +9,7 @@ nav_order: 5
 
 The project evolved significantly through multiple iterations, each improving upon the previous design.
 
-## Iteration 1 — Individual Prototypes
+## Iteration 1: Individual Prototypes
 
 Each member built a full game prototype using cardboard. My Flappy Bird game required:
 - LCD updates for player motion
@@ -17,7 +17,7 @@ Each member built a full game prototype using cardboard. My Flappy Bird game req
 - Timing logic for obstacles
 - CAD layout for screen + button alignment
 
-## Iteration 2 — Refining Mechanics
+## Iteration 2: Refining Mechanics
 
 We tested gameplay reliability, ensuring:
 - Button responsiveness
@@ -25,7 +25,7 @@ We tested gameplay reliability, ensuring:
 - Consistent program behavior
 - Stable game loops
 
-## Iteration 3 — Group Final Concept Selection
+## Iteration 3: Group Final Concept Selection
 
 We chose the Light Reaction Game because:
 - Simple to showcase and demonstrate
@@ -33,7 +33,7 @@ We chose the Light Reaction Game because:
 - Scaled well with enclosure redesign
 - Engaging gameplay mechanics
 
-## Iteration 4 — Structural & Material Improvements
+## Iteration 4: Structural & Material Improvements
 
 We redesigned the enclosure using:
 - **Wood** as the final material for stability

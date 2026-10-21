@@ -38,12 +38,12 @@ The team defined ten goals for the system, each with a measurable success criter
 
 ## Design Constraints
 
-- **Low cost** — the build had to stay within project budget using accessible, widely available materials
-- **4–5 electronic components** — exactly four to five components, each serving a clear functional role rather than a decorative one
-- **Fits one class period** — full session including setup, play, and wrap-up in 45–60 minutes
-- **Hardware** — Raspberry Pi Zero 2 WH, with limited processing power and GPIO availability
-- **Safety** — moving servo parts and live electronics fully enclosed for use around children
-- **Fabrication** — limited Makerspace hours and shared access to laser cutters and 3D printers
+- **Low cost**: the build had to stay within project budget using accessible, widely available materials
+- **4–5 electronic components**: exactly four to five components, each serving a clear functional role rather than a decorative one
+- **Fits one class period**: full session including setup, play, and wrap-up in 45–60 minutes
+- **Hardware**: Raspberry Pi Zero 2 WH, with limited processing power and GPIO availability
+- **Safety**: moving servo parts and live electronics fully enclosed for use around children
+- **Fabrication**: limited Makerspace hours and shared access to laser cutters and 3D printers
 
 ## Target Users
 

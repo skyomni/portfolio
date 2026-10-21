@@ -14,7 +14,7 @@ A physical multiplayer STEM trivia game for 5th grade classrooms, built on a Ras
 
 ## Project Overview
 
-CADodiles was designed and built for Cornerstone of Engineering II (Spring 2026) as a five-person team project. Fifth grade classrooms at Melrose Leadership Academy lacked inclusive, standards-aligned STEM games that fit inside a single class period — existing options were often too reading-heavy, not interactive enough, or misaligned with Common Core, EUREKA, and FOSS curriculum standards.
+CADodiles was designed and built for Cornerstone of Engineering II (Spring 2026) as a five-person team project. Fifth grade classrooms at Melrose Leadership Academy lacked inclusive, standards-aligned STEM games that fit inside a single class period. Existing options were often too reading-heavy, not interactive enough, or misaligned with Common Core, EUREKA, and FOSS curriculum standards.
 
 Our answer was a laser-cut plywood dispenser housing a Raspberry Pi Zero 2 WH, a 7" touchscreen, a servo-driven waterwheel mechanism, and an LED feedback strip, paired with four colour-coded play boards. Students answer math and science questions on the touchscreen; each correct answer dispenses a physical game piece they place on their board.
 
@@ -27,7 +27,7 @@ Our answer was a laser-cut plywood dispenser housing a Raspberry Pi Zero 2 WH, a
 
 ### My Role
 
-I led all software development — the Kivy application, game logic, and GPIO hardware integration — and served as Project Manager during Milestone 4. See [Personal Reflections](./cadodiles-pages/cadodiles-reflection.html) for details.
+I led all software development (the Kivy application, game logic, and GPIO hardware integration) and served as Project Manager during Milestone 4. See [Personal Reflections](./cadodiles-pages/cadodiles-reflection.html) for details.
 
 ### Key Features
 - Touchscreen interface built with Python and Kivy
@@ -39,12 +39,12 @@ I led all software development — the Kivy application, game logic, and GPIO ha
 - Four colour-coded laser-cut play boards for tracking player progress
 
 ### Development Timeline
-- **Milestone 1** — Problem framing, research, and team formation
-- **Milestone 2** — Concept generation and KTDA design selection
-- **Milestone 3** — 50% prototype: initial CAD, wiring diagrams, and first software build
-- **Milestone 4** — Dispenser assembly, electronics integration, and enclosure rebuild
-- **Milestone 5** — Final UI, play board rebuild, painting, and system integration
-- **Milestone 6** — Showcase and testing with six groups of 5th grade students
+- **Milestone 1**: Problem framing, research, and team formation
+- **Milestone 2**: Concept generation and KTDA design selection
+- **Milestone 3**: 50% prototype: initial CAD, wiring diagrams, and first software build
+- **Milestone 4**: Dispenser assembly, electronics integration, and enclosure rebuild
+- **Milestone 5**: Final UI, play board rebuild, painting, and system integration
+- **Milestone 6**: Showcase and testing with six groups of 5th grade students
 
 Final report submitted April 2026.
 

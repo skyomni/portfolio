@@ -108,7 +108,7 @@ The project evolved significantly through multiple iterations, each improving on
 
 ---
 
-## Iteration 1 — Initial Concept
+## Iteration 1: Initial Concept
 
 The first build was a bare laser-cut plywood dispenser and a matching set of play boards, cut directly from the first round of CAD drawings.
 
@@ -119,11 +119,11 @@ The first build was a bare laser-cut plywood dispenser and a matching set of pla
   </div>
   <div class="gallery-item" onclick="openLightbox(event, '{{ site.baseurl }}/assets-github/cadodiles/iteration1-dispenser-box.jpg', 'First laser-cut plywood dispenser box - too small to house the servo and dispensing mechanism')">
     <img src="{{ site.baseurl }}/assets-github/cadodiles/iteration1-dispenser-box.jpg" alt="First dispenser box prototype">
-    <div class="gallery-caption">First Dispenser Box &mdash; Too Small</div>
+    <div class="gallery-caption">First Dispenser Box (Too Small)</div>
   </div>
   <div class="gallery-item" onclick="openLightbox(event, '{{ site.baseurl }}/assets-github/cadodiles/iteration1-playboard.jpg', 'First play board prototype - the angled top surface did not sit flush with the frame')">
     <img src="{{ site.baseurl }}/assets-github/cadodiles/iteration1-playboard.jpg" alt="First play board prototype">
-    <div class="gallery-caption">First Play Board &mdash; Not Flush</div>
+    <div class="gallery-caption">First Play Board (Not Flush)</div>
   </div>
 </div>
 
@@ -137,14 +137,14 @@ The dispenser was rebuilt taller, and the play boards were re-cut and reassemble
 
 ---
 
-## Iteration 2 — Refined Mechanism
+## Iteration 2: Refined Mechanism
 
 The most significant change was to the dispensing mechanism itself.
 
 <div class="gallery">
   <div class="gallery-item drawing" onclick="openLightbox(event, '{{ site.baseurl }}/assets-github/cadodiles/iteration2-waterwheel-cad.png', 'CAD model of the waterwheel dispensing mechanism mounted inside the enclosure, replacing the original platform jack concept')">
     <img src="{{ site.baseurl }}/assets-github/cadodiles/iteration2-waterwheel-cad.png" alt="Waterwheel mechanism CAD model">
-    <div class="gallery-caption">Waterwheel Mechanism &mdash; CAD Model</div>
+    <div class="gallery-caption">Waterwheel Mechanism (CAD Model)</div>
   </div>
   <div class="gallery-item" onclick="openLightbox(event, '{{ site.baseurl }}/assets-github/cadodiles/iteration2-internals-wip.jpg', 'Internal layout during assembly, with the Raspberry Pi, wiring, and ramp temporarily held in place with painters tape')">
     <img src="{{ site.baseurl }}/assets-github/cadodiles/iteration2-internals-wip.jpg" alt="Internal assembly in progress">
@@ -168,14 +168,14 @@ The most significant change was to the dispensing mechanism itself.
 
 ---
 
-## Iteration 3 — Final Enclosure
+## Iteration 3: Final Enclosure
 
 The final build closed out the mechanical work and added the exterior finish.
 
 <div class="gallery">
   <div class="gallery-item" onclick="openLightbox(event, '{{ site.baseurl }}/assets-github/cadodiles/final-wooden-prototype.jpg', 'Rebuilt taller dispenser with the 7 inch touchscreen mounted flush and game pieces visible in the exit chute')">
     <img src="{{ site.baseurl }}/assets-github/cadodiles/final-wooden-prototype.jpg" alt="Rebuilt dispenser with display fitted">
-    <div class="gallery-caption">Rebuilt Dispenser &mdash; Display Fitted</div>
+    <div class="gallery-caption">Rebuilt Dispenser (Display Fitted)</div>
   </div>
   <div class="gallery-item" onclick="openLightbox(event, '{{ site.baseurl }}/assets-github/cadodiles/final-dispenser.jpg', 'Completed dispenser with the Super Mario themed acrylic paint finish')">
     <img src="{{ site.baseurl }}/assets-github/cadodiles/final-dispenser.jpg" alt="Completed painted dispenser">

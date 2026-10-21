@@ -12,7 +12,7 @@ parent: About Me
 ---
 
 ## FYELIC Red Vest
-**Northeastern University College of Engineering** — Boston, MA
+**Northeastern University College of Engineering**, Boston, MA
 *July 2026 – Present*
 
 First Year Engineering Learning and Innovation Center.
@@ -23,7 +23,7 @@ First Year Engineering Learning and Innovation Center.
 ---
 
 ## Makerspace Explorer
-**Northeastern University EXP Makerspace** — Boston, MA
+**Northeastern University EXP Makerspace**, Boston, MA
 *June 2026 – Present*
 
 - **Fabrication & prototyping**: Support 15–30 users per shift with PCB milling, soldering, 3D printing, laser cutting, and mechanical assembly for engineering prototypes.
@@ -32,7 +32,7 @@ First Year Engineering Learning and Innovation Center.
 ---
 
 ## Print Media Assistant
-**Northeastern University Oakland Makerspaces** — Oakland, CA
+**Northeastern University Oakland Makerspaces**, Oakland, CA
 *September 2025 – April 2026*
 
 - **Process improvement & organization**: Reduced equipment checkout time by 50–60% by developing a centralized barcode-based equipment tracking system.
@@ -40,8 +40,8 @@ First Year Engineering Learning and Innovation Center.
 
 ---
 
-## Researcher — CubeSat Environmental Sensing Project
-**Queensborough Community College (CUNY)** — Queens, NY
+## Researcher: CubeSat Environmental Sensing Project
+**Queensborough Community College (CUNY)**, Queens, NY
 *July 2024 – August 2024*
 
 - **Embedded sensor development**: Assembled and tested a CubeSat sensor system using BMP280 and MPU6050 modules; recorded pressure and temperature measurements at one-second intervals.

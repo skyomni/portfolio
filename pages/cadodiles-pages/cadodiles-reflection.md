@@ -135,7 +135,7 @@ The most valuable part of this project was building a complete embedded system w
 
 I already had experience with the Raspberry Pi Zero 2 WH from my CubeSat research, so system setup and GPIO control were familiar. That let me focus on what was new to me: integrating a touchscreen display and building a graphical interface in Kivy.
 
-Learning Kivy was the hardest and most rewarding part. I taught myself to design multi-screen interfaces, manage touch input, and build a layout that actually works for younger users — which pushed me past straight programming and into user interface design, where usability mattered more than cleverness.
+Learning Kivy was the hardest and most rewarding part. I taught myself to design multi-screen interfaces, manage touch input, and build a layout that actually works for younger users, which pushed me past straight programming and into user interface design, where usability mattered more than cleverness.
 
 Debugging and system integration was the other area of real growth. Servo control and startup behaviour both needed iterative testing, and I developed a more structured troubleshooting approach: isolate one variable at a time and test fixes without disturbing the rest of the system.
 
@@ -147,9 +147,9 @@ The skill I am most proud of is being able to design and implement a complete so
 
 Coordinating across CAD design, fabrication, and software was the main challenge, since all three ran in parallel and had to integrate cleanly at the end.
 
-As Project Manager for Milestone 4, I focused on organization and accountability — making sure tasks were clearly assigned and finished on time. My leadership style is coordination-based: I delegate and trust people to own their work, while staying available when they need support.
+As Project Manager for Milestone 4, I focused on organization and accountability, making sure tasks were clearly assigned and finished on time. My leadership style is coordination-based: I delegate and trust people to own their work, while staying available when they need support.
 
-My biggest contribution to the team was software development and system integration. My prior Raspberry Pi experience meant I could handle system setup quickly and spend my time on the new pieces — the touchscreen and the Kivy interface.
+My biggest contribution to the team was software development and system integration. My prior Raspberry Pi experience meant I could handle system setup quickly and spend my time on the new pieces: the touchscreen and the Kivy interface.
 
 ---
 

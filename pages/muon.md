@@ -5,7 +5,7 @@ nav_order: 4
 parent: Projects
 ---
 
-# Cosmic Ray Muon Detector Research — Queensborough Community College
+# Cosmic Ray Muon Detector Research at Queensborough Community College
 
 **Research Assistant • Experimental Particle Physics**
 

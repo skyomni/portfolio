@@ -44,7 +44,7 @@ Through iterations, collaboration, and structured problem-solving, we transforme
 
 ## Key Takeaways
 
-This project demonstrated that successful engineering is not about getting it right the first time—it's about:
+This project demonstrated that successful engineering is not about getting it right the first time. It's about:
 - Iterating based on feedback
 - Learning from failures
 - Collaborating effectively

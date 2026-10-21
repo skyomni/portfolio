@@ -8,8 +8,8 @@ nav_order: 2
 # Education
 
 ## Northeastern University
-**B.S. Electrical Engineering** — Boston, MA
-*Expected 2029* · GPA: 3.89
+**B.S. Electrical Engineering**, Boston, MA
+*Expected December 2028* · GPA: 3.89
 
 **Relevant coursework**
 - Embedded Design
@@ -20,7 +20,7 @@ nav_order: 2
 ---
 
 ## Benjamin N. Cardozo High School
-**DaVinci Engineering Program** — Queens, NY
+**DaVinci Engineering Program**, Queens, NY
 *Graduated 2025* · GPA: 4.0
 
 ---

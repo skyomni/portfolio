@@ -128,7 +128,7 @@ The final CADodiles build combines a laser-cut plywood dispenser, a Raspberry Pi
     <source src="{{ site.baseurl }}/assets-github/cadodiles/cadodiles-demo.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-  <p><em>The video starts muted so it can play automatically &mdash; use the controls to turn sound on.</em></p>
+  <p><em>The video starts muted so it can play automatically; use the controls to turn sound on.</em></p>
 </div>
 
 ---
@@ -206,7 +206,7 @@ One limitation the team noted: some students focused more on collecting the phys
 
 ## How the Final Design Meets the Original Goals
 
-**Curriculum alignment**: Questions target 5th grade math — fractions, decimals, graphing, and measurement — plus selected earth science topics consistent with FOSS guidelines, with chapter select so instructors can target specific content
+**Curriculum alignment**: Questions target 5th grade math (fractions, decimals, graphing, and measurement), plus selected earth science topics consistent with FOSS guidelines, with chapter select so instructors can target specific content
 
 **Engagement**: Touchscreen interaction combined with physical dispensing sustained attention across all six groups
 

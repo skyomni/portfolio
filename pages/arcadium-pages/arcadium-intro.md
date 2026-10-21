@@ -11,7 +11,7 @@ This project focuses on designing and developing an interactive arcade-style gam
 
 ## Project Purpose
 
-The purpose of this project was to practice the engineering design process—from ideation, prototyping, CAD modeling, programming, and enclosure design, all the way to a documented final build.
+The purpose of this project was to practice the engineering design process, from ideation, prototyping, CAD modeling, programming, and enclosure design, all the way to a documented final build.
 
 ## Key Constraints
 
