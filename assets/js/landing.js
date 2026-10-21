@@ -16,6 +16,35 @@
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();
 
+  /* --- hero cover: report how far the next section has slid over the hero --- */
+  var hero = document.querySelector('.hero');
+  var calm = window.matchMedia('(prefers-reduced-motion: reduce)');
+  if (hero) {
+    var ticking = false;
+    var updateHero = function () {
+      ticking = false;
+      var p = Math.min(1, Math.max(0, window.scrollY / hero.offsetHeight));
+      hero.style.setProperty('--hero-p', calm.matches ? 0 : p.toFixed(3));
+      hero.classList.toggle('is-covered', p >= 1);
+    };
+    var queueHero = function () {
+      if (!ticking) { ticking = true; window.requestAnimationFrame(updateHero); }
+    };
+    window.addEventListener('scroll', queueHero, { passive: true });
+    window.addEventListener('resize', queueHero);
+    updateHero();
+  }
+
+  /* --- stagger: children of [data-stagger] reveal one after another --- */
+  Array.prototype.forEach.call(document.querySelectorAll('[data-stagger]'), function (group) {
+    var step = parseInt(group.getAttribute('data-stagger'), 10) || 70;
+    group.classList.remove('reveal');
+    Array.prototype.forEach.call(group.children, function (child, i) {
+      child.classList.add('reveal');
+      child.setAttribute('data-delay', String((i % 4) * step));
+    });
+  });
+
   /* --- active link tracking --- */
   if ('IntersectionObserver' in window && sections.length) {
     var visible = new Map();
@@ -47,6 +76,8 @@
         if (!e.isIntersecting) return;
         var delay = parseInt(e.target.getAttribute('data-delay') || '0', 10);
         setTimeout(function () { e.target.classList.add('is-in'); }, delay);
+        // Once settled, drop the reveal classes so hover lifts on cards work again
+        setTimeout(function () { e.target.classList.remove('reveal', 'is-in'); }, delay + 900);
         obs.unobserve(e.target);
       });
     }, { rootMargin: '0px 0px -12% 0px', threshold: 0.08 });
@@ -55,10 +86,18 @@
     reveals.forEach(function (el) { el.classList.add('is-in'); });
   }
 
-  /* Failsafe: whatever the observer has not reached within a few seconds of
-     load gets revealed anyway, so content can never be stranded invisible. */
+  /* Failsafe: anything in view that the observer has not revealed within a few
+     seconds of load gets revealed anyway, so content is never stranded invisible. */
   function revealAll() {
-    reveals.forEach(function (el) { el.classList.add('is-in'); });
+    // Only what is already on or above the screen, so content further down
+    // still gets its entrance animation when the reader scrolls to it.
+    var due = reveals.filter(function (el) {
+      return el.classList.contains('reveal') && el.getBoundingClientRect().top < window.innerHeight;
+    });
+    due.forEach(function (el) { el.classList.add('is-in'); });
+    setTimeout(function () {
+      due.forEach(function (el) { el.classList.remove('reveal', 'is-in'); });
+    }, 900);
   }
   window.addEventListener('load', function () { setTimeout(revealAll, 4000); });
 

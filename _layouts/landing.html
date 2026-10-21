@@ -15,7 +15,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <script>document.documentElement.className += " has-js";</script>
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/landing.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/landing.css?v={{ site.time | date: "%s" }}">
   <style>
     body { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
     .hero__bg { background-image: url("{{ site.baseurl }}/assets-github/photography/golden-gate.jpg"); }
@@ -63,6 +63,6 @@
   <div class="lb__cap"></div>
 </div>
 
-<script src="{{ site.baseurl }}/assets/js/landing.js"></script>
+<script src="{{ site.baseurl }}/assets/js/landing.js?v={{ site.time | date: "%s" }}"></script>
 </body>
 </html>
